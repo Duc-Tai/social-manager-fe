@@ -1,0 +1,29 @@
+.custom-toast-container {
+  padding: 0px 20px !important;
+  margin: 12px 0px 0px;
+  background-color: #2d3539 !important;
+  border-radius: 4px !important;
+}
+
+.Vue-Toastification__toast-component-body {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.Vue-Toastification__toast {
+  min-height: 48px !important;
+}
+
+.custom-toast-container .Vue-Toastification__icon {
+  position: absolute;
+  z-index: 99;
+  top: 0 !important;
+  left: 11px;
+  font-size: 24px;
+  margin: 0;
+  display: flex;
+}
+
+.custom-toast-container .description {
+  margin-left: 32px;
+}
